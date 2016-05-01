@@ -24,6 +24,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 
+# Plugins
+gem 'factory_girl_rails'
+gem 'faker'
+gem 'decent_exposure'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'quiet_assets'
@@ -38,6 +43,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-email'
   gem 'database_cleaner', '~> 1.3.0'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
   gem 'simplecov', require: false
   gem 'launchy'
   gem 'selenium-webdriver'
